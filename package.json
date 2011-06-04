@@ -1,0 +1,19 @@
+{
+  "name": "node-lighthouse",
+  "description": "Lighthouse API",
+  "version": "0.0.1",
+  "author": "Basil Shkara <basil@neat.io>",
+  "keywords": ["lighthouse"],
+  "dependencies": {
+    "xml2js": ">=0.1.6",
+    "xmlbuilder": ">=0.0.6",
+    "restler": ">=0.2.1"
+  },
+  "main" : "lib/lighthouse.js",
+  "directories" : {
+    "lib" : "./lib"
+  },
+  "engines": {
+    "node": ">= 0.4.2"
+  }
+}
